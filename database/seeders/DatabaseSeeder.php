@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
         $this->call(FundCategorySeeder::class);
         $this->call(FundSubCategoriesSeeder::class);
         $this->call(UserFundsSeeder::class);
+        $this->call(UserSeeder::class);
         $this->call(FundsSeeder::class);
+        
     }
 }
