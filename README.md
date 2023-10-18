@@ -1,10 +1,13 @@
+PHP Version: 8
+Laravel Version: 10
+
 Commands for getting database started:
 
-1. php artisan migrate
-2. php artisan db:seed
+1.``` php artisan migrate```
+2.``` php artisan db:seed```
 
 To get server started:
-php artisan serve
+```php artisan serve```
 
 Test Login data:
 email:test@email.com
