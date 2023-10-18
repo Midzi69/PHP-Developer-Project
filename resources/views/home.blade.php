@@ -34,7 +34,7 @@
     @endif
 
 
-        <table>
+        <table class="table">
             <tr>
                 <th>ID</th>
                     <th>Name</th>
@@ -43,10 +43,10 @@
             </tr>
             @foreach($funds as $fund)
             <tr>
-                    <td>||{{ $fund->id }}</td>
-                    <td>||{{ $fund->name }}</td>
-                    <td>||{{ $fund->isin }}</td>
-                    <td>||{{ $fund->wkn }}</td>
+                    <td>{{ $fund->id }}</td>
+                    <td>{{ $fund->name }}</td>
+                    <td>{{ $fund->isin }}</td>
+                    <td>{{ $fund->wkn }}</td>
                 </tr>
                 @endforeach
         </table>
