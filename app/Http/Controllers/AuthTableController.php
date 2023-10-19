@@ -62,7 +62,7 @@ class AuthTableController extends Controller
 
     public function exportXML()
 {
-    $funds = Fund::all(); // Fetch your funds data here
+    $funds = Fund::all(); 
 
     $xml = new \SimpleXMLElement('<Funds></Funds>');
     foreach ($funds as $fund) {
